@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>DARSY</title>
+		<meta name="description" content="Darsy is an attempt of making an artificial intelligence robot." />
+		<meta name="keywords" content="artificial, intelligence, darsy, robot, project" />
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link href='fonts/raleway.css' rel='stylesheet' type='text/css'>
+
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,100,700' rel='stylesheet' type='text/css'> 
+		
+		<link rel="stylesheet" type="text/css" href="css/modal.css" />
+		<script src="js/modernizr.custom.js"></script>
+		
+	</head>
+	<body>
+		<div class="container demo-1">
+			<div class="content">
+				<div class="codrops-header1">
+					<nav class="codrops-demos">
+						<a  href="index.html" class = "visited">Home</a>
+						<a  href="#bla" style = "-webkit-transition: smooth;">Features</a>
+						<a href="pages/team.html">Team</a>
+					</nav>
+				</div>
+				<div id="large-header" class="large-header">
+
+						<canvas id="demo-canvas"></canvas>
+						<h1 class="main-title"><span class="thin">Hi! this is </span>DARSY.</h1><br><br>
+						<h1 class = "little">The Beginning is near.</h1>
+				</div>
+				<div id = "bla" class="codrops-header clearfix">
+					<h1>Darsy An Artificial Intelligence Robot.</h1>
+					<div class = "my-class" style = "float: left;">
+						<h1><span style = "font-weight: 500; color: black;">DARSY is an intelligent personal assistant, human language interface and automation software for Windows PC that allows you to interact with your computer using voice commands in English language. DARSY makes it possible for you to control your computer using natural language commands and makes your life easier. DARSY is not like Siri or Cortana for PC but rather a powerful personal and office productivity software.</span></h1>
+					</div>
+					<figure class="snip0019">
+						<img src="images/brain.png" alt="sample13"/>
+						<figcaption>
+							<div><h2>I'm <span>sure</span> you have something <span>more important</span> to do You <span>should focus</span> on that <span>instead.</span></h2></div>
+							<div><p style = "padding-top: 30%;">Why don't you leave this to me?<br><br> Trust me, I'll take good care of it.</p></div>
+							<a href="#"></a>
+						</figcaption>			
+					</figure>
+					<!--<div class = "my-class" style = "float: right;">
+						<img class = "my-image" src = "brain2.png"></img>
+					</div>-->
+				</div>
+				<div class = "codrops-header clearfix" style = "background-color: rgb(17, 17, 17);">
+					<figure class="snip0017">
+						<img src="images/brain1.jpg" alt="sample7"/>
+						<figcaption>
+							<h2>I <span>propose</span> you leave <span>your</span> work to <span>me</span></h2>
+							<p>and go play outside.</p>
+							<a href="#"></a>
+						</figcaption>			
+					</figure>
+					<!--<div class = "my-class" style = "float: left;">
+						<img src = "brain3.jpg" class = "my-image1"></img>
+					</div>-->
+					<div class = "my-class" style = "float: right;">
+						<h1><span style = "font-weight: 500; color: white;">It isn't just like a chat-bot, its priority is to be super functional and to help you in doing tasks. You can either type commands or speak to it and DARSY will understand what you want to do. Moreover, using speech recognition built in DARSY for WebApp you can interact with your computer from anywhere in your house over a Wi-Fi network.</span></h1>
+					</div>
+				</div>
+				<div class = "codrops-header">
+					<nav class="codrops-demos1">
+						<a  href="pages/chat.html">LET'S TALK!</a>
+					</nav>
+				</div>
+			<!-- Related demos -->
+			</div><!-- /container -->
+		</div>
+
+				<div class="button-wrap"><button data-dialog="somedialog" class="trigger">i</button></div>
+				<div id="somedialog" class="dialog">
+					<div class="dialog__overlay"></div>
+					<div class="dialog__content">
+						<div class="morph-shape">
+							<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+								<rect x="3" y="3" fill="none" width="556" height="276"/>
+							</svg>
+						</div>
+						<div class="dialog-inner">
+							<h2 style = "padding-bottom: 1%;"><strong>Some things</strong>, you can ask me:</h2>
+							<ul>
+								<li>Who is the President of India?</li>
+								<li>What is cricket?</li>
+								<li>Tell Sam to be on time.</li>
+								<li>Show me messages from Harry.</li>
+								<li>Calculate 1+2-3/4*5.</li>
+								<li>Where is White House?</li>
+							</ul>
+							<div><button class="action" data-dialog-close>Close</button></div>
+						</div>
+					</div>
+				</div>
+		<script src="js/classie.js"></script>
+		<script src="js/dialogFx.js"></script>
+		<script>
+			(function() {
+
+				var dlgtrigger = document.querySelector( '[data-dialog]' ),
+					somedialog = document.getElementById( dlgtrigger.getAttribute( 'data-dialog' ) ),
+					dlg = new DialogFx( somedialog );
+
+				dlgtrigger.addEventListener( 'click', dlg.toggle.bind(dlg) );
+
+			})();
+		</script>
+		
+		
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+
+		<script src="js/header.js"></script>
+
+	</body>
+</html>
